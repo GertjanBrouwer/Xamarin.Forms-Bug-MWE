@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:controls="clr-namespace:MWE.Controls">
+    <DataTemplate x:Key="MyDatatemplate">
+        <Frame BackgroundColor="Blue">
+            <controls:MyControl Lbl="This does not work"/>
+        </Frame>
+    </DataTemplate>
+</ResourceDictionary>
